@@ -1,0 +1,33 @@
+提问人：陈灵娟
+1.常见一些默认端口号？
+mongodb:27017 mysql:3306 oracle:1521 redis:6379
+ftp:21 ssh:22 http:80 https:443 
+
+1.csrf的相关概念？
+2.MVC的相关概念？
+3.cookie session token 的区别？
+MVC将M(业务模型)和V(用户界面)实现代码分离，使同一个程序有不同的表现形式，C(控制器)存在的目的则是确保M和V的同步，一旦M改变，V应该同步更新。
+高内聚 低耦合
+Model  --模型 封装数据的交互操作
+View --视图 用来将数据呈现给用户
+Controller --控制器 接受用户输入输出 协调model和view的关系，对数据进行操作、删选
+
+3.数据库的四种语言？
+DDL （数据定义语言） 
+数据定义语言 - Data Definition Language 
+用来定义数据库的对象，如数据表、视图、索引等 
+
+DML （数据操纵语言） 
+数据处理语言 - Data Manipulation Language 
+在数据库表中更新，增加和删除记录 
+如 update， insert， delete 不包含查询
+
+DCL （数据控制语言） 
+数据控制语言 – Data Control Language 
+指用于设置用户权限和控制事务语句 
+如grant，revoke，if…else，while，begin transaction
+
+DQL （数据查询语言）
+数据查询语言 – Data Query Language 
+数据表记录的查询。 
+如select
